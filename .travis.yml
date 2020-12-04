@@ -11,6 +11,9 @@ branches:
 
 node_js:
   - "9"
+  - "10"
+  - "12"
+  - "14"
 
 script:
   - travis_retry npm test
